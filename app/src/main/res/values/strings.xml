@@ -13,6 +13,10 @@
     <string name="uf">UF</string>
     <string name="ex_12_93456_7890">Ex.: 12-93456-7890</string>
     <string name="sexo">Sexo</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="campo_para_digitar_o_nome">Campo para digitar o nome</string>
+    <string name="digite_sua_cidade">Digite sua cidade</string>
+    <string name="digite_seu_email">Digite seu email</string>
 
     <string-array name="estados_brasil">
         <item>Acre</item>
