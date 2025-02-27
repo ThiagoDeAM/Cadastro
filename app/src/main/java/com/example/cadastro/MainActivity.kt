@@ -1,6 +1,5 @@
 package com.example.cadastro
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.RadioButton
 import android.widget.Toast
@@ -12,16 +11,14 @@ class MainActivity : AppCompatActivity() {
     private val activityMainBinding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
-    private var contador = 0
 
-    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(activityMainBinding.root)
 
         with(activityMainBinding){
-            //Botao Salvar
+
             salvarBt.setOnClickListener {
                 salvarFormulario()
             }
